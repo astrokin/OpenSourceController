@@ -11,7 +11,8 @@ public struct OpenSourceControllerConfig {
 
     /// Sub-stuct holding configuration relevant to UI presentation ! 
     public struct UIConfig {
-
+        public init() {
+        }
         /// Will be applied to the navigation bar 
         public var backgroundColor: UIColor = Style.background
 
