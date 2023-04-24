@@ -35,6 +35,7 @@ open class LicenceListViewController: UITableViewController {
     override open func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.translatesAutoresizingMaskIntoConstraints = false
         self.prepareTableView()
     }
     
